@@ -51,7 +51,7 @@
 - **Aldair Villegas**
 - **Jheidy Rimachi**
 - **Alexis Rojas**
-- **Aldair **
+- **Aldair**
 
 _Disfruta del mejor contenido de películas sin anuncios con **Stream App**._ 
 

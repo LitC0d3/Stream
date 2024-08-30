@@ -37,44 +37,6 @@
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg)
 
-## Sobre la Aplicación
-
-**Stream App** es una aplicación de streaming gratuita y sin anuncios, diseñada para la reproducción de películas con futuras implementaciones para series. La aplicación ofrece una experiencia de usuario fluida y sin interrupciones, enfocándose en la simplicidad y la eficiencia.
-
-## Cómo Usarlo
-
-1. **Descargar** la aplicación desde el repositorio o [desde este enlace](#) hasta que esté disponible en Google Play Store.
-2. **Abrir** la aplicación en tu dispositivo Android.
-3. **Explorar** y seleccionar la película que deseas ver.
-4. **Reproducir** la película seleccionada y disfrutar del streaming sin anuncios.
-
-### Características
-
-- **Streaming sin anuncios**: Disfruta de tus películas favoritas sin interrupciones publicitarias.
-- **Interfaz intuitiva**: Navegación sencilla y fácil de usar.
-- **Futuras implementaciones**: Pronto se agregarán series a la plataforma.
-- **Reproducción en alta calidad**: Compatible con una amplia gama de formatos y resoluciones.
-- **Soporte para múltiples dispositivos**: Disponible en una variedad de plataformas Android.
-
-## Tecnologías Usadas
-
-### Lenguajes y Frameworks
-- **Kotlin**: Usado para el desarrollo de la aplicación en Android.
-- **ExoPlayer**: Implementado para la reproducción de medios en la aplicación.
-- **Retrofit**: Utilizado para la comunicación con la API.
-- **OkHttp**: Integrado para manejar las solicitudes de red.
-- **Maven**: Utilizado para la gestión de dependencias.
-- **ViewBinding**: Implementado para manejar las vistas de manera eficiente.
-- **Gradle Plugin Portal**: Usado para gestionar los plugins de Gradle.
-
-### Buenas Prácticas
-- **Coroutines**: Implementación de corrutinas para manejar la concurrencia de manera eficiente.
-- **Arquitectura limpia**: Segregación de responsabilidades con una arquitectura limpia y modular.
-
-### API
-- **Propia API**: Se utilizó una API propia basada en JSON para la obtención de datos.
-  - [API Endpoint](https://my-json-server.typicode.com/LitC0d3/demo/db)
-
 ## Futuros Planes
 
 - **Adición de series**: Pronto se agregarán series al catálogo de la aplicación.
@@ -84,6 +46,13 @@
 
 ---
 
+## Colaboradores de Este Proyecto
+
+- **Aldair Villegas**
+- **Jheidy Rimachi**
+- **Alexis Rojas**
+- ****
+  
 _Disfruta del mejor contenido de películas sin anuncios con **Stream App**._ 
 
 **hasta que esté disponible en Google Play Store.**
@@ -91,13 +60,6 @@ _Disfruta del mejor contenido de películas sin anuncios con **Stream App**._
 3. **Explorar** y seleccionar la película que deseas ver.
 4. **Reproducir** la película seleccionada y disfrutar del streaming sin anuncios.
 
-## Futuros Planes
-
-- **Adición de series**: Pronto se agregarán series al catálogo de la aplicación.
-- **Mejoras en la UI/UX**: Continuaremos mejorando la interfaz de usuario para una mejor experiencia.
-- **Soporte offline**: Implementar la capacidad de descargar contenido para verlo sin conexión.
-- **Disponibilidad en Google Play Store**: La aplicación estará disponible en Google Play Store próximamente.
 
 ---
 
-_Disfruta del mejor contenido de películas sin anuncios con **Stream App**._

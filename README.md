@@ -51,15 +51,11 @@
 - **Aldair Villegas**
 - **Jheidy Rimachi**
 - **Alexis Rojas**
-- ****
-  
+- **Aldair **
+
 _Disfruta del mejor contenido de películas sin anuncios con **Stream App**._ 
 
 **hasta que esté disponible en Google Play Store.**
-2. **Abrir** la aplicación en tu dispositivo Android.
-3. **Explorar** y seleccionar la película que deseas ver.
-4. **Reproducir** la película seleccionada y disfrutar del streaming sin anuncios.
-
 
 ---
 

@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.SimpleExoPlayer
@@ -23,6 +24,7 @@ class PlaymovieActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_playmovie)
+
         val url: String = intent.getStringExtra("url").toString()
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
@@ -30,8 +32,14 @@ class PlaymovieActivity : AppCompatActivity() {
         )
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
         playerView = findViewById(R.id.video_view)
+        val backButton: Button = findViewById(R.id.back_button)
+
         uri = Uri.parse(url)
         initPlayer()
+
+        backButton.setOnClickListener {
+            finish() // Termina la actividad y regresa a la pantalla anterior
+        }
     }
 
     private fun initPlayer() {

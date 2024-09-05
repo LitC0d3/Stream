@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/exo_controls"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
-    android:layoutDirection="ltr"
-    android:background="#CC000000"
-    android:orientation="vertical"
-    tools:targetApi="28">
+    android:background="#80000000"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,12 +20,6 @@
         <ImageButton android:id="@id/exo_rew"
             style="@style/ExoMediaButton.Rewind"/>
 
-        <ImageButton android:id="@id/exo_shuffle"
-            style="@style/ExoMediaButton"/>
-
-        <ImageButton android:id="@id/exo_repeat_toggle"
-            style="@style/ExoMediaButton"/>
-
         <ImageButton android:id="@id/exo_play"
             style="@style/ExoMediaButton.Play"/>
 
@@ -40,9 +31,6 @@
 
         <ImageButton android:id="@id/exo_next"
             style="@style/ExoMediaButton.Next"/>
-
-        <ImageButton android:id="@id/exo_vr"
-            style="@style/ExoMediaButton.VR"/>
 
     </LinearLayout>
 
@@ -63,7 +51,8 @@
             android:includeFontPadding="false"
             android:textColor="#FFBEBEBE"/>
 
-        <View android:id="@id/exo_progress_placeholder"
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="26dp"/>

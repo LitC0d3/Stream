@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kotflix</string>
+    <string name="app_name">Stream</string>
     <string name="description_logo">Logo</string>
     <string name="button_list">Mi lista</string>
     <string name="button_info">Información</string>

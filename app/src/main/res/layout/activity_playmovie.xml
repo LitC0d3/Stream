@@ -1,27 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#000000">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <com.google.android.exoplayer2.ui.PlayerView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:show_timeout="10000"
         app:controller_layout_id="@layout/custom_controls"
-        tools:ignore="MissingClass" />
+        app:use_controller="true"
+        app:show_timeout="3000"
+        app:hide_on_touch="true"/>
 
-    <Button
-        android:id="@+id/back_button"
-        android:layout_width="wrap_content"
+    <!-- Contenedor para el título y el botón de regresar -->
+    <RelativeLayout
+        android:id="@+id/barraTitulo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Regresar"
-        android:layout_gravity="start|top"
-        android:layout_margin="16dp"
-        android:background="@android:color/transparent"
-        android:textColor="@android:color/white" />
+        android:background="#80000000"
+        android:padding="8dp">
 
-</FrameLayout>
+        <!-- Botón de regreso -->
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="#FFFFFF" />
+
+        <!-- Título de la película -->
+        <TextView
+            android:id="@+id/content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/back_button"
+            android:text="@+id/content_title"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

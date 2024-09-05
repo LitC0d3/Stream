@@ -67,7 +67,9 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         super.onClick(movie)
         val intent = Intent(baseContext, PlaymovieActivity::class.java)
         intent.putExtra("url", movie.url)
+        intent.putExtra("title", movie.title) // Pasa el título
         startActivity(intent)
         Toast.makeText(baseContext, movie.title, Toast.LENGTH_SHORT).show()
     }
+
 }

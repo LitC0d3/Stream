@@ -19,7 +19,7 @@
 
         <!-- Declaración de MainActivity -->
         <activity
-            android:name="com.newcode.stream.MainActivity"
+            android:name="com.newcode.stream.LoginActivity"
             android:exported="true"
             android:theme="@style/KotflixApp">
             <intent-filter>
@@ -27,6 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.newcode.stream.RegisterActivity" />
+
+        <activity android:name="com.newcode.stream.MainActivity" />
 
         <!-- Declaración de PlaymovieActivity -->
         <activity

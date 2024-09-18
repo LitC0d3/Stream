@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         super.onCreate(savedInstanceState)
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
+        supportActionBar?.hide()
 
         GlobalScope.launch(Dispatchers.IO) {
             val service: Endpoints = Connection.ResponseEngine().create(Endpoints::class.java)
